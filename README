@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4493
+
+https://github.com/evindor/vim-rusmode
+Rusmode.vim
+
+No Windows support for now.
+
+When you press russian key in normal mode this script will change your system layout and repeat same key press in appropriate language.
+
+Settings:
+
+Set layout to switch to. Defaults to 'U.S.'.
+let g:rusmode_normal_layout='U.S.'
+You can find out the name of layout by switching on it and running changeInput binary in plugin directory.
+
+Automatically toggle to normal layout on leaving the insert mode. Defaults to 0.
+let g:rusmode_autotoggle_insertleave=1
